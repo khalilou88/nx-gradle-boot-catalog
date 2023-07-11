@@ -1,0 +1,25 @@
+{
+  "name": "lib",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/lib/src",
+  "targets": {
+    "build": {
+      "executor": "@jnxplus/nx-gradle:build",
+      "outputs": ["libs/lib/build"],
+      "options": {
+        "framework": "spring-boot"
+      }
+    },
+    "lint": {
+      "executor": "@jnxplus/nx-gradle:lint",
+      "options": {
+        "linter": "checkstyle"
+      }
+    },
+    "test": {
+      "executor": "@jnxplus/nx-gradle:test"
+    }
+  },
+  "tags": []
+}
