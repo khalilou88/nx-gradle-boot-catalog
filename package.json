@@ -2,13 +2,11 @@
   "name": "@nx-gradle-boot-catalog/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {
-  },
+  "scripts": {},
   "private": true,
-  "dependencies": {
-  },
   "devDependencies": {
-    "nx": "16.5.1",
-    "@nx/workspace": "16.5.1"
+    "@jnxplus/nx-gradle": "^0.6.0",
+    "@nx/workspace": "16.5.1",
+    "nx": "16.5.1"
   }
 }
